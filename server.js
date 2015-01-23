@@ -49,6 +49,6 @@ io.on('connection', function(socket) {
 	});
 });
 
-http.listen(4000, "54.161.220.180", function() {
-	console.log('Listening on: *:4000');
+http.listen(50000, function() {
+	console.log('Listening on: *:50000');
 });
