@@ -53,5 +53,5 @@ io.on('connection', function(socket) {
 });
 
 http.listen(port, ipaddress, function() {
-	console.log('Listening on: *:' + port);
+	console.log('Listening on: ' + ipaddress + ':' + port);
 });
