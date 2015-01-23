@@ -49,6 +49,6 @@ io.on('connection', function(socket) {
 	});
 });
 
-http.listen(50000, function() {
-	console.log('Listening on: *:50000');
+http.listen(8080, "127.0.0.1", function() {
+	console.log('Listening on: *:8080');
 });
